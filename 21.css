@@ -1,0 +1,61 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(./img/poker.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh; 
+}
+ main #cont{
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+    width: 40%;
+    border-radius: 5px;
+    padding: 1rem;
+}
+main h1{
+    font-size: 5rem;
+    margin: 0%;
+    text-align: center;
+    color: red;
+}
+main span{
+    color: black;
+}
+main h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+main p{
+    font-size: 1.5rem;
+}
+main #cont div{
+    text-align: center;
+}
+main button{
+    width: 29%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none; 
+    background-color: gold;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+main #new{
+    background-color: green;
+}
+main #stand{
+   background-color:  blueviolet;
+}
+main #new:active{
+    background-color: greenyellow;
+}
+main button:active{
+    background-color:goldenrod;
+}
