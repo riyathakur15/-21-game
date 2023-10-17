@@ -7,8 +7,8 @@
  var cctotal=0
  var aastorage=[]
  var start=false
-  var Player="riya"
-  var stake=500
+  var Player=prompt("enter your name")
+  var stake=prompt("enter the amount")
  var st=document.querySelector("#start")
 var bg=document.querySelector("#cont")
 var body=document.querySelector("body")
